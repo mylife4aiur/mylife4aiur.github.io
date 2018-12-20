@@ -1,5 +1,5 @@
 ---
-bg: "pandas-3.jpg"
+bg: "pandas-3_low.jpg"
 layout: page
 title: "Contact"
 crawlertitle: "Contact"
