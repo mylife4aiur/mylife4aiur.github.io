@@ -1,5 +1,5 @@
 ---
-bg: "lantern.jpf"
+bg: "lantern_low.jpg"
 layout: page
 title: "Publications"
 crawlertitle: "My Publications"
