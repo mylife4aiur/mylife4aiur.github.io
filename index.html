@@ -1,14 +1,23 @@
 ---
-bg: "ladder.jpg"
+bg: "treeandroad.jpg"
 layout: default
 crawlertitle: "Haoyu's Page"
-title: "HomePage"
+title: "Haoyu's HomePage"
 summary: " "
 ---
+<h1 id="bio">Short Bio</h1>
 
-{% for post in site.news limit: 5 %}
+<p>I am a master candidate at Dalian University of Technology (DLUT).
+    I received the Bachelor degree in Chemical Engineering from Dalian University of Technology, in 2016.</p>
+
+
+<h1 id="Recent News">Recent News</h1>
+{% for post in site.posts limit: 5 %}
+{% if post.tags contains "news"%}
   <article class="index-page">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
   </article>
+
+  {% endif%}
 {% endfor %}
