@@ -6,6 +6,7 @@ title: "Archive"
 crawlertitle: "All articles"
 summary: "Posts about jekyll"
 active: archive
+weight: 4
 ---
 
 {% for tag in site.tags %}
